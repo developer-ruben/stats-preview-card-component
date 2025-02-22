@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="Discover insights that help your business grow with data analytics. Enhance revenue, customer experience, and efficiency with this stats preview card component."
+    />
+    <meta
+      name="keywords"
+      content="data analytics, business growth, revenue, customer experience, efficiency, stats card component"
+    />
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Frontend Mentor | Stats preview card component</h1>
+      <section class="card">
+        <div class="card__content">
+          <h2 class="card__title">
+            Get <span class="card__highlight">insights</span> that help your
+            business grow.
+          </h2>
+          <p class="card__text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul class="card__list">
+            <li class="card__item">
+              10k+ <span class="card__category">companies</span>
+            </li>
+            <li class="card__item">
+              314 <span class="card__category">templates</span>
+            </li>
+            <li class="card__item">
+              12m+ <span class="card__category">queries</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card__image-container">
+          <picture>
+            <source
+              srcset="./assets/images/image-header-mobile.jpg"
+              media="(max-width: 767px)"
+            />
+
+            <img
+              class="card__image"
+              src="./assets/images/image-header-desktop.jpg"
+              width="540"
+              height="446"
+              alt="Abstract header image representing people in a meeting"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Ruben de Man</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
